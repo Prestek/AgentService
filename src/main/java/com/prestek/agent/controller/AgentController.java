@@ -47,7 +47,7 @@ public class AgentController {
     }
 
     @PostMapping
-    @Operation(summary = "Crear nuevo agente", description = "Crea un nuevo agente en el sistema")
+    @Operation(summary = "Crear nuevo agentes", description = "Crea un nuevo agente en el sistema")
     @ApiResponses(value = {
         @ApiResponse(responseCode = "201", description = "Agente creado exitosamente",
                     content = @Content(mediaType = "application/json", 
